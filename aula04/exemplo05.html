@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>05</title>
 </head>
 <body>
     <script>
-      var num = parseInt(prompt("Digite um número: "));
-      let total_pares = 0;
-      for (let i = 1; i <= num ; i++) {
-        if (i % 2 ==0){
-            //console.log(i);
-            //total_pares = total_pares + i; 
-            total_pares += i;
+        /*somar os numeros*/
+        var soma = 0;
+        //laço FOR para contar 1 A 10
+        for (let i = 1; i <= 10; i++) {
+            if (i % 2==0){
+             console.log(i);
+             soma = soma+ i;
+            }
         }
-      }
-     console.log("Total da soma :", total_pares)
+        console.log("A soma dos numeros pares é:", soma)
     </script>
 </body>
 </html>
